@@ -89,6 +89,29 @@
     }
 }
 
+@media(max-width:372px){
+    .bmw h1, .design h1{
+        font-size: 3.5rem;
+        padding-right: 1rem;
+        }
+        .bmw{
+            height: 8rem;
+        }
+        .design h1{
+            line-height: 2px;
+        }
+}
+@media(max-width:342px){
+    .bmw h1, .design h1{
+        font-size: 3rem;
+        padding-right: 1rem;
+        }
+        
+        .design h1{
+            line-height: 7px;
+        }
+}
+
 @media(max-width:57rem){
     .ham{
        display: block;
